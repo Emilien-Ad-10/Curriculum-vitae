@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    height: 171vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formationExp, #contactReseaux{
+    height: 171vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#formationExp{
+    width: 60%;
+    background: #fff;
+    padding: 1rem;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-family: 'lato', sans-serif;
+    color: #222222;
+    font-size: 1.75rem;
+    text-shadow: 3px 3px 0 #c7c7c7;
+}
+
+.h2Header{
+    font-family: 'lato', sans-serif;
+    color: #c7c7c7;
+    font-size: 2rem;
+    text-shadow: 3px 3px 0 #222222;
+}
+
+header p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+    padding: 5px;
+}
+
+main, #formation, #experience{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+h2{
+    color: #A80808;
+    font-size: 21px;
+    font-family: 'Lobster', sans-serif;
+}
+
+/*************************************************SECTION DIPLOMES FORMATIONS COMPETENCES**************************************/
+ul li, p{
+    color: #777;
+    font-size: 15px;
+}
+
+ul li span, span{
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.li-OC{
+    font-weight: bold;
+}
+
+.OC{
+    color: #A80808;
+}
+
+.li-OC, .OC{
+    font-size: 17px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+ul li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+/********************************************FIN SECTION DIPLOMES FORMATIONS COMPETENCES***************************************/
+
+
+/********************************************SECTION CONTACTS RESEAUX**********************************************************/
+#contactReseaux{
+    width: 40%;
+    background: #333333;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.h2Contact, .h2Reseaux{
+    color: #aaaaaa;
+    margin: 20px;
+}
+
+#ulContact li span, #ulReseaux li span{
+    color: #fff;
+    margin-right: 7px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#ulContact li, #ulReseaux li{
+    color: rgb(199, 199, 199);
+    margin: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#ulContact li i, #ulReseaux li i{
+    font-size: 23px;
+}
+
+#ulReseaux li a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
